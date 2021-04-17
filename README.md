@@ -2,6 +2,6 @@
 
 2. delete empty frames manually
 
-3. use LabelImg to create xmls in folder annotations/
+3. use LabelImg to create xmls in folder annotations/xmls
 
-4. 
+4. ls images | grep png > trainval.txt
