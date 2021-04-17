@@ -25,7 +25,8 @@ from object_detection.utils import label_map_util
 flags = tf.app.flags
 flags.DEFINE_string('image_dir', '', 'Path to image directory.')
 flags.DEFINE_string('annotations_dir', '', 'Path to annotations directory.')
-flags.DEFINE_string('output_path', '', 'Path to output TFRecord')
+flags.DEFINE_string('output_path_train', '', 'Path to output TFRecord train')
+flags.DEFINE_string('output_path_val', '', 'Path to output TFRecord val')
 flags.DEFINE_string('label_map_path', 'data/pascal_label_map.pbtxt',
                     'Path to label map proto')
 FLAGS = flags.FLAGS
@@ -66,7 +67,7 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
     classes_text = []
 
     print(data)
-    
+
     try:
         for obj in data['object']:
             xmin.append(float(obj['bndbox']['xmin']) / width)
@@ -100,7 +101,8 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
 
 def main(_):
 
-    writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
+    writer_train = tf.python_io.TFRecordWriter(FLAGS.output_path_train)
+    writer_val = tf.python_io.TFRecordWriter(FLAGS.output_path_val)
     label_map_dict = label_map_util.get_label_map_dict(FLAGS.label_map_path)
 
     image_dir = FLAGS.image_dir
@@ -108,9 +110,21 @@ def main(_):
     logging.info('Reading from dataset: ' + annotations_dir)
     examples_list = os.listdir(annotations_dir)
 
+    #===
+    num_examples = len(examples_list)
+    num_train = int(0.8 * num_examples)
+    #===
+
+    writer = writer_train
+
     for idx, example in enumerate(examples_list):
         if example.endswith('.xml'):
-            if idx % 50 == 0:
+
+            if idx == num_train:
+                writer = writer_val
+                print('Switching to val tfrecord')
+
+            if idx % 10 == 0:
                 print('On image %d of %d' % (idx, len(examples_list)))
 
             path = os.path.join(annotations_dir, example)
@@ -122,7 +136,10 @@ def main(_):
             tf_example = dict_to_tf_example(data, image_dir, label_map_dict)
             writer.write(tf_example.SerializeToString())
 
-    writer.close()
+    writer_train.close()    
+    writer_val.close()
+    
+
 
 
 if __name__ == '__main__':
