@@ -69,6 +69,10 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
     print(data)
 
     try:
+        print(data['filename'], 'objects: ')
+        
+        obj_cnt = 0
+
         for obj in data['object']:
             xmin.append(float(obj['bndbox']['xmin']) / width)
             ymin.append(float(obj['bndbox']['ymin']) / height)
@@ -76,6 +80,10 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
             ymax.append(float(obj['bndbox']['ymax']) / height)
             classes_text.append(obj['name'].encode('utf8'))
             classes.append(label_map_dict[obj['name']])
+            obj_cnt += 1
+
+        print('obj cnt:', obj_cnt, 'classes: ', classes_text)
+
     except KeyError:
         print(data['filename'] + ' without objects!')
 
