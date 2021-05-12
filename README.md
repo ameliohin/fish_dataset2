@@ -1,7 +1,5 @@
-1. prepare images (use script images/generate_pictures.sh)
+1. готовим картинки / prepare images (use script images/generate_pictures.sh)
 
-2. delete empty frames manually
+2. удаляем пустые кадры вручную / delete empty frames manually
 
-3. use LabelImg to create xmls in folder annotations/xmls
-
-4. ls images | grep png > trainval.txt
+3. используем LabelImg для создания xml-файлов в annotations/xmls / use LabelImg to create xmls in folder annotations/xmls
