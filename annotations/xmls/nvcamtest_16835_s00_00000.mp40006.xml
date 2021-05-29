@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>nvcamtest_16835_s00_00000.mp40006.jpeg</filename>
-	<path>/home/q/rabota/fish_dataset2/images/nvcamtest_16835_s00_00000.mp40006.jpeg</path>
+	<path>C:\rabota\fish_dataset2\images\nvcamtest_16835_s00_00000.mp40006.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>153</xmin>
+			<xmin>149</xmin>
 			<ymin>163</ymin>
 			<xmax>243</xmax>
-			<ymax>230</ymax>
+			<ymax>233</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>506</xmin>
-			<ymin>342</ymin>
-			<xmax>607</xmax>
-			<ymax>402</ymax>
+			<xmin>502</xmin>
+			<ymin>345</ymin>
+			<xmax>605</xmax>
+			<ymax>403</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>340</xmin>
-			<ymin>126</ymin>
-			<xmax>414</xmax>
-			<ymax>228</ymax>
+			<xmin>338</xmin>
+			<ymin>128</ymin>
+			<xmax>412</xmax>
+			<ymax>230</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -79,8 +79,8 @@
 		<bndbox>
 			<xmin>375</xmin>
 			<ymin>133</ymin>
-			<xmax>456</xmax>
-			<ymax>179</ymax>
+			<xmax>458</xmax>
+			<ymax>176</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>511</xmin>
-			<ymin>46</ymin>
-			<xmax>575</xmax>
-			<ymax>127</ymax>
+			<xmin>507</xmin>
+			<ymin>48</ymin>
+			<xmax>580</xmax>
+			<ymax>134</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>533</xmin>
+			<xmin>529</xmin>
 			<ymin>153</ymin>
 			<xmax>599</xmax>
-			<ymax>209</ymax>
+			<ymax>211</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -141,6 +141,42 @@
 			<ymin>114</ymin>
 			<xmax>640</xmax>
 			<ymax>177</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>387</xmin>
+			<ymin>81</ymin>
+			<xmax>497</xmax>
+			<ymax>121</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>396</xmin>
+			<ymin>113</ymin>
+			<xmax>504</xmax>
+			<ymax>169</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>390</xmin>
+			<ymin>42</ymin>
+			<xmax>474</xmax>
+			<ymax>99</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>nvcamtest_16835_s00_00000.mp40009.jpeg</filename>
-	<path>/home/q/rabota/fish_dataset2/images/nvcamtest_16835_s00_00000.mp40009.jpeg</path>
+	<path>C:\rabota\fish_dataset2\images\nvcamtest_16835_s00_00000.mp40009.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -20,7 +20,7 @@
 			<xmin>261</xmin>
 			<ymin>201</ymin>
 			<xmax>353</xmax>
-			<ymax>271</ymax>
+			<ymax>269</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -30,8 +30,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>195</xmin>
-			<ymin>311</ymin>
-			<xmax>293</xmax>
+			<ymin>308</ymin>
+			<xmax>297</xmax>
 			<ymax>372</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>303</xmin>
-			<ymin>335</ymin>
-			<xmax>386</xmax>
-			<ymax>399</ymax>
+			<xmin>301</xmin>
+			<ymin>340</ymin>
+			<xmax>387</xmax>
+			<ymax>397</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>210</xmin>
-			<ymin>415</ymin>
-			<xmax>281</xmax>
-			<ymax>442</ymax>
+			<xmin>206</xmin>
+			<ymin>416</ymin>
+			<xmax>287</xmax>
+			<ymax>447</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -66,7 +66,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>435</xmin>
-			<ymin>408</ymin>
+			<ymin>406</ymin>
 			<xmax>526</xmax>
 			<ymax>442</ymax>
 		</bndbox>
@@ -91,8 +91,8 @@
 		<bndbox>
 			<xmin>408</xmin>
 			<ymin>148</ymin>
-			<xmax>472</xmax>
-			<ymax>244</ymax>
+			<xmax>475</xmax>
+			<ymax>243</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -115,8 +115,8 @@
 		<bndbox>
 			<xmin>402</xmin>
 			<ymin>15</ymin>
-			<xmax>502</xmax>
-			<ymax>75</ymax>
+			<xmax>500</xmax>
+			<ymax>77</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -128,7 +128,7 @@
 			<xmin>117</xmin>
 			<ymin>36</ymin>
 			<xmax>199</xmax>
-			<ymax>75</ymax>
+			<ymax>77</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>499</xmin>
-			<ymin>156</ymin>
-			<xmax>550</xmax>
-			<ymax>244</ymax>
+			<xmin>495</xmin>
+			<ymin>155</ymin>
+			<xmax>554</xmax>
+			<ymax>247</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -151,8 +151,8 @@
 		<bndbox>
 			<xmin>57</xmin>
 			<ymin>388</ymin>
-			<xmax>143</xmax>
-			<ymax>416</ymax>
+			<xmax>145</xmax>
+			<ymax>419</ymax>
 		</bndbox>
 	</object>
 </annotation>
