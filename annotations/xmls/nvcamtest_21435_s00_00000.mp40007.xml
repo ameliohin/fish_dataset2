@@ -17,9 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>66</xmin>
-			<ymin>52</ymin>
-			<xmax>263</xmax>
+			<xmin>80</xmin>
+			<ymin>58</ymin>
+			<xmax>245</xmax>
 			<ymax>152</ymax>
 		</bndbox>
 	</object>
