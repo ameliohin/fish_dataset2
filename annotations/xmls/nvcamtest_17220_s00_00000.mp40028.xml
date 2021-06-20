@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>260</xmin>
-			<ymin>125</ymin>
-			<xmax>424</xmax>
-			<ymax>194</ymax>
+			<xmin>270</xmin>
+			<ymin>133</ymin>
+			<xmax>386</xmax>
+			<ymax>174</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,22 +41,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>309</xmin>
-			<ymin>37</ymin>
-			<xmax>472</xmax>
-			<ymax>114</ymax>
+			<xmin>325</xmin>
+			<ymin>35</ymin>
+			<xmax>442</xmax>
+			<ymax>91</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>fish</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>12</xmin>
-			<ymin>45</ymin>
-			<xmax>105</xmax>
-			<ymax>92</ymax>
+			<xmin>1</xmin>
+			<ymin>36</ymin>
+			<xmax>88</xmax>
+			<ymax>82</ymax>
 		</bndbox>
 	</object>
 </annotation>
