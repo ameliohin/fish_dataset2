@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>nvcamtest_17220_s00_00000.mp40024.jpeg</filename>
-	<path>/home/q/rabota/fish_dataset2/images/nvcamtest_17220_s00_00000.mp40024.jpeg</path>
+	<path>/home/alexander/fish_dataset2/images/nvcamtest_17220_s00_00000.mp40024.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,7 +17,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>113</xmin>
+			<xmin>112</xmin>
 			<ymin>38</ymin>
 			<xmax>217</xmax>
 			<ymax>88</ymax>
@@ -29,9 +29,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>270</xmin>
+			<xmin>271</xmin>
 			<ymin>342</ymin>
-			<xmax>411</xmax>
+			<xmax>412</xmax>
 			<ymax>387</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>390</xmin>
-			<ymin>342</ymin>
+			<xmin>392</xmin>
+			<ymin>344</ymin>
 			<xmax>469</xmax>
-			<ymax>397</ymax>
+			<ymax>401</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -54,8 +54,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>439</xmin>
-			<ymin>379</ymin>
-			<xmax>515</xmax>
+			<ymin>380</ymin>
+			<xmax>520</xmax>
 			<ymax>441</ymax>
 		</bndbox>
 	</object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>53</xmin>
-			<ymin>302</ymin>
-			<xmax>109</xmax>
-			<ymax>363</ymax>
+			<xmin>49</xmin>
+			<ymin>304</ymin>
+			<xmax>111</xmax>
+			<ymax>367</ymax>
 		</bndbox>
 	</object>
 </annotation>

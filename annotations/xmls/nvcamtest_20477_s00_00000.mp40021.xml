@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>nvcamtest_20477_s00_00000.mp40021.jpeg</filename>
-	<path>/home/q/rabota/fish_dataset2/images/nvcamtest_20477_s00_00000.mp40021.jpeg</path>
+	<path>/home/alexander/fish_dataset2/images/nvcamtest_20477_s00_00000.mp40021.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>25</ymin>
 			<xmax>602</xmax>
 			<ymax>87</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>567</xmin>
+			<ymin>332</ymin>
+			<xmax>640</xmax>
+			<ymax>408</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>nvcamtest_17007_s00_00000.mp40012.jpeg</filename>
-	<path>/home/q/rabota/fish_dataset2/images/nvcamtest_17007_s00_00000.mp40012.jpeg</path>
+	<path>/home/alexander/fish_dataset2/images/nvcamtest_17007_s00_00000.mp40012.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -54,9 +54,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>383</xmin>
-			<ymin>222</ymin>
-			<xmax>449</xmax>
-			<ymax>310</ymax>
+			<ymin>225</ymin>
+			<xmax>450</xmax>
+			<ymax>312</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -103,8 +103,8 @@
 		<bndbox>
 			<xmin>535</xmin>
 			<ymin>42</ymin>
-			<xmax>574</xmax>
-			<ymax>162</ymax>
+			<xmax>576</xmax>
+			<ymax>164</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -115,8 +115,8 @@
 		<bndbox>
 			<xmin>160</xmin>
 			<ymin>49</ymin>
-			<xmax>282</xmax>
-			<ymax>99</ymax>
+			<xmax>283</xmax>
+			<ymax>103</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>126</xmin>
-			<ymin>76</ymin>
-			<xmax>228</xmax>
-			<ymax>105</ymax>
+			<xmin>124</xmin>
+			<ymin>74</ymin>
+			<xmax>260</xmax>
+			<ymax>107</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -139,8 +139,8 @@
 		<bndbox>
 			<xmin>174</xmin>
 			<ymin>22</ymin>
-			<xmax>272</xmax>
-			<ymax>54</ymax>
+			<xmax>273</xmax>
+			<ymax>56</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -174,8 +174,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>443</xmin>
-			<ymin>68</ymin>
-			<xmax>502</xmax>
+			<ymin>57</ymin>
+			<xmax>504</xmax>
 			<ymax>145</ymax>
 		</bndbox>
 	</object>
@@ -189,6 +189,30 @@
 			<ymin>36</ymin>
 			<xmax>155</xmax>
 			<ymax>73</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>71</ymin>
+			<xmax>273</xmax>
+			<ymax>122</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>24</ymin>
+			<xmax>181</xmax>
+			<ymax>47</ymax>
 		</bndbox>
 	</object>
 </annotation>

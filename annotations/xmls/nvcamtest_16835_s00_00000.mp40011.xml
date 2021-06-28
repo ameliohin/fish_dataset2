@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>nvcamtest_16835_s00_00000.mp40011.jpeg</filename>
-	<path>C:\rabota\fish_dataset2\images\nvcamtest_16835_s00_00000.mp40011.jpeg</path>
+	<path>/home/alexander/fish_dataset2/images/nvcamtest_16835_s00_00000.mp40011.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,8 +29,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>152</xmin>
-			<ymin>227</ymin>
+			<xmin>148</xmin>
+			<ymin>225</ymin>
 			<xmax>271</xmax>
 			<ymax>297</ymax>
 		</bndbox>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>99</xmin>
-			<ymin>294</ymin>
-			<xmax>208</xmax>
-			<ymax>330</ymax>
+			<xmin>97</xmin>
+			<ymin>292</ymin>
+			<xmax>210</xmax>
+			<ymax>332</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -54,9 +54,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>423</xmin>
-			<ymin>239</ymin>
+			<ymin>237</ymin>
 			<xmax>487</xmax>
-			<ymax>329</ymax>
+			<ymax>331</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -67,8 +67,8 @@
 		<bndbox>
 			<xmin>338</xmin>
 			<ymin>182</ymin>
-			<xmax>457</xmax>
-			<ymax>220</ymax>
+			<xmax>460</xmax>
+			<ymax>223</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>349</xmin>
-			<ymin>82</ymin>
-			<xmax>451</xmax>
-			<ymax>126</ymax>
+			<xmin>347</xmin>
+			<ymin>81</ymin>
+			<xmax>452</xmax>
+			<ymax>129</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>149</xmin>
+			<xmin>147</xmin>
 			<ymin>33</ymin>
 			<xmax>213</xmax>
-			<ymax>85</ymax>
+			<ymax>88</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,8 +101,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>245</xmin>
-			<ymin>21</ymin>
+			<xmin>242</xmin>
+			<ymin>20</ymin>
 			<xmax>303</xmax>
 			<ymax>70</ymax>
 		</bndbox>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>255</xmin>
-			<ymin>66</ymin>
-			<xmax>379</xmax>
-			<ymax>147</ymax>
+			<xmin>254</xmin>
+			<ymin>65</ymin>
+			<xmax>380</xmax>
+			<ymax>149</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,21 +125,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>249</xmin>
+			<xmin>245</xmin>
 			<ymin>96</ymin>
 			<xmax>298</xmax>
-			<ymax>200</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>fish</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>278</xmin>
-			<ymin>149</ymin>
-			<xmax>385</xmax>
 			<ymax>199</ymax>
 		</bndbox>
 	</object>
@@ -149,10 +137,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>504</xmin>
+			<xmin>273</xmin>
+			<ymin>147</ymin>
+			<xmax>388</xmax>
+			<ymax>200</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>502</xmin>
 			<ymin>81</ymin>
-			<xmax>611</xmax>
-			<ymax>154</ymax>
+			<xmax>610</xmax>
+			<ymax>157</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>362</xmin>
-			<ymin>290</ymin>
-			<xmax>413</xmax>
-			<ymax>423</ymax>
+			<xmin>360</xmin>
+			<ymin>288</ymin>
+			<xmax>414</xmax>
+			<ymax>425</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -173,10 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>339</xmin>
+			<xmin>337</xmin>
 			<ymin>397</ymin>
-			<xmax>455</xmax>
-			<ymax>441</ymax>
+			<xmax>458</xmax>
+			<ymax>442</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -186,9 +186,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>444</xmin>
-			<ymin>406</ymin>
-			<xmax>560</xmax>
-			<ymax>445</ymax>
+			<ymin>403</ymin>
+			<xmax>561</xmax>
+			<ymax>447</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -199,7 +199,7 @@
 		<bndbox>
 			<xmin>35</xmin>
 			<ymin>62</ymin>
-			<xmax>136</xmax>
+			<xmax>137</xmax>
 			<ymax>114</ymax>
 		</bndbox>
 	</object>
@@ -212,7 +212,7 @@
 			<xmin>1</xmin>
 			<ymin>31</ymin>
 			<xmax>89</xmax>
-			<ymax>71</ymax>
+			<ymax>70</ymax>
 		</bndbox>
 	</object>
 </annotation>
