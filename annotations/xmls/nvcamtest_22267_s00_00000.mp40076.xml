@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_zakhar</folder>
+	<filename>nvcamtest_22267_s00_00000.mp40076.jpeg</filename>
+	<path>/home/alexander/fish_dataset2/images_zakhar/nvcamtest_22267_s00_00000.mp40076.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>558</xmin>
+			<ymin>322</ymin>
+			<xmax>618</xmax>
+			<ymax>349</ymax>
+		</bndbox>
+	</object>
+</annotation>
