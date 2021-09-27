@@ -123,14 +123,14 @@ def main(_):
     num_train = int(0.8 * num_examples)
     #===
 
-    writer = writer_train
+    #writer = writer_train
 
     for idx, example in enumerate(examples_list):
         if example.endswith('.xml'):
 
-            if idx == num_train:
-                writer = writer_val
-                print('Switching to val tfrecord')
+            #if idx == num_train:
+            #    writer = writer_val
+            #    print('Switching to val tfrecord')
 
             if idx % 10 == 0:
                 print('On image %d of %d' % (idx, len(examples_list)))
@@ -142,7 +142,11 @@ def main(_):
             data = dataset_util.recursive_parse_xml_to_dict(xml)['annotation']
 
             tf_example = dict_to_tf_example(data, image_dir, label_map_dict)
-            writer.write(tf_example.SerializeToString())
+            
+            if idx % 10 == 0:
+                writer_val.write(tf_example.SerializeToString())
+            else:
+                writer_train.write(tf_example.SerializeToString())
 
     writer_train.close()    
     writer_val.close()
