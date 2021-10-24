@@ -35,4 +35,16 @@
 			<ymax>370</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>160</ymin>
+			<xmax>112</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
 </annotation>
