@@ -115,7 +115,7 @@ def main(_):
     writer_val = tf.python_io.TFRecordWriter(FLAGS.output_path_val)
     label_map_dict = label_map_util.get_label_map_dict(FLAGS.label_map_path)
 
-    print('Label Map Dict:' label_map_dict)
+    print('Label Map Dict:', label_map_dict)
 
     image_dir = FLAGS.image_dir
     annotations_dir = FLAGS.annotations_dir
