@@ -84,8 +84,9 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
 
         print('obj cnt:', obj_cnt, 'classes: ', classes_text)
 
-    except KeyError:
+    except KeyError as e:
         print(data['filename'] + ' without objects!')
+        print(e)
 
     difficult_obj = [0]*len(classes)
     example = tf.train.Example(features=tf.train.Features(feature={
