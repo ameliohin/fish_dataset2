@@ -78,7 +78,7 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
             ymin.append(float(obj['bndbox']['ymin']) / height)
             xmax.append(float(obj['bndbox']['xmax']) / width)
             ymax.append(float(obj['bndbox']['ymax']) / height)
-            classes_text.append(obj['name'].encode('utf8'))
+            classes_text.append(obj['name'].encode('utf8').strip())
             classes.append(label_map_dict[obj['name']])
             obj_cnt += 1
 
