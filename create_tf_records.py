@@ -79,6 +79,7 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
             xmax.append(float(obj['bndbox']['xmax']) / width)
             ymax.append(float(obj['bndbox']['ymax']) / height)
             obj_name = obj['name'].encode('utf8').strip()
+            print('Object Name: ', obj_name)
             classes_text.append(obj_name)
             classes.append(label_map_dict[obj_name])
             obj_cnt += 1
@@ -87,7 +88,7 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
 
     except KeyError as e:
         print(data['filename'] + ' without objects!')
-        print(e)
+        print(repr(e))
 
     difficult_obj = [0]*len(classes)
     example = tf.train.Example(features=tf.train.Features(feature={
