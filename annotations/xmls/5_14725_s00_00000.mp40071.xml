@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2021.12.11_small_fish</folder>
+	<filename>5_14725_s00_00000.mp40071.jpeg</filename>
+	<path>C:\11\2021.12.11_small_fish\5_14725_s00_00000.mp40071.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>612</xmin>
+			<ymin>217</ymin>
+			<xmax>640</xmax>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+</annotation>
