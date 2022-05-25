@@ -90,6 +90,7 @@ def dict_to_tf_example(data, image_dir, label_map_dict):
     except KeyError as e:
         print(data['filename'] + ' without objects!')
         print(repr(e))
+        return None
 
     difficult_obj = [0]*len(classes)
     example = tf.train.Example(features=tf.train.Features(feature={
@@ -149,10 +150,12 @@ def main(_):
 
             tf_example = dict_to_tf_example(data, image_dir, label_map_dict)
             
-            if idx % 10 == 0:
-                writer_val.write(tf_example.SerializeToString())
-            else:
-                writer_train.write(tf_example.SerializeToString())
+            if tf_example:
+                
+                if idx % 10 == 0:
+                    writer_val.write(tf_example.SerializeToString())
+                else:
+                    writer_train.write(tf_example.SerializeToString())
 
     writer_train.close()    
     writer_val.close()
