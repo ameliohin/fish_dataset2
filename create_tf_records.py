@@ -167,7 +167,7 @@ def main(_):
     
     print('========CORRUPTED:')
     for f in corrupted_files:
-        print(f)
+        print('rm ', f)
 
 
 if __name__ == '__main__':
