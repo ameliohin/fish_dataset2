@@ -160,7 +160,7 @@ def main(_):
                     writer_train.write(tf_example.SerializeToString())
 
             else:
-                corrupted_files.add(data['filename'])
+                corrupted_files.append(data['filename'])
 
     writer_train.close()    
     writer_val.close()
