@@ -132,6 +132,8 @@ def main(_):
 
     #writer = writer_train
 
+    corrupted_files = []
+
     for idx, example in enumerate(examples_list):
         if example.endswith('.xml'):
 
@@ -157,10 +159,15 @@ def main(_):
                 else:
                     writer_train.write(tf_example.SerializeToString())
 
+            else:
+                corrupted_files.add(data['filename'])
+
     writer_train.close()    
     writer_val.close()
     
-
+    print('========CORRUPTED:')
+    for f in corrupted_files:
+        print(f)
 
 
 if __name__ == '__main__':
