@@ -1,7 +1,7 @@
 <annotation>
-	<folder>2</folder>
+	<folder>images</folder>
 	<filename>nvc_21418.mp40076.jpeg</filename>
-	<path>C:\windows_v1.8.1\2\nvc_21418.mp40076.jpeg</path>
+	<path>/home/alexander/VideoTrack/Dataset/fish_dataset2/images/nvc_21418.mp40076.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,7 +18,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>3</xmin>
-			<ymin>178</ymin>
+			<ymin>175</ymin>
 			<xmax>245</xmax>
 			<ymax>295</ymax>
 		</bndbox>
