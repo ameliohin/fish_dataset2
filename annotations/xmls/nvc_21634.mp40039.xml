@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Fish 3</folder>
+	<filename>nvc_21634.mp40039.jpeg</filename>
+	<path>C:\Users\3Dolphins\Desktop\Fish 3\nvc_21634.mp40039.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>413</xmin>
+			<ymin>214</ymin>
+			<xmax>636</xmax>
+			<ymax>436</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>12</ymin>
+			<xmax>405</xmax>
+			<ymax>266</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>207</ymin>
+			<xmax>357</xmax>
+			<ymax>363</ymax>
+		</bndbox>
+	</object>
+</annotation>
